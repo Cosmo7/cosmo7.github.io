@@ -40,6 +40,26 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+div.modal-header {
+  border-bottom: 0 none;
+}
+div.modal-header button {
+  color: white;
+  font-size: 21pt;
+  opacity: 0.5;
+}
+div.modal-content {
+  background: #373737;
+  color: white;
+}
+div.modal-content a {
+  color: #e4e5e6;
+}
+ul.features {
+  list-style-type: square;
+  font-size: 16pt;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
 ul.carousel-inner {
   list-style-type: none;
   font-size: 24pt;
