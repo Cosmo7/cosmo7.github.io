@@ -26,20 +26,28 @@ header {
 	background-size: cover;
 	-o-background-size: cover;
 	background-position: center;
-	background-image: url(../img/bigMapLight.jpg);
+	background-image: url(../img/coach_handbag.jpg);
+	background-color: gray;
 	text-align: center;
 	color: #373737;
 }
 
 header .header-content {
-	position: relative;
-	text-align: center;
-	padding: 100px 15px 100px;
-	width: 100%;
+	position: absolute;
+	text-align: left;
+	top: 200px;
+	left: 50%;
+	bottom: 0px;
+	right: 0px;
 }
 
 section {
 	padding: 80px 0;
+}
+
+.btn {
+	border: none;
+	border-radius: 300px;
 }
 
 .light {
@@ -63,12 +71,45 @@ div.listing-image {
 }
 
 /* carousel */
+
 a.carousel-control {
 	background-image: none !important;
 }
 
+@media (min-width: 768px) {
+	div.carousel {
+		padding: 0px 60px;
+	}
+
+	a.carousel-control {
+		background-image: none !important;
+		width: 60px;
+	}
+}
+
 ol.carousel-indicators {
 	position: relative;
+}
+
+div.profile {
+	background: #e4e5e6;
+	margin: 15px 0px;
+	padding: 5px;
+	border-radius: 8px;
+	height: 580px;
+	color: #373737;
+	text-align: center;
+}
+
+div.profile img {
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+}
+
+div.profile ul {
+	text-align: left;
+	list-style: square;
 }
 
 /* maps */

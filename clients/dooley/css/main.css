@@ -1,0 +1,180 @@
+html, body {
+    height: 100%;
+}
+
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto Slab';
+}
+
+h2.section-heading {
+	margin: 0px 0px 50px 0px;
+}
+
+p {
+	font-family: 'Open Sans';
+	font-size: 14pt;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	/* min-height: auto;*/
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url(../img/bigMapLight.jpg);
+	text-align: center;
+	color: #373737;
+}
+
+header .header-content {
+	position: relative;
+	text-align: center;
+	padding: 100px 15px 100px;
+	width: 100%;
+}
+
+section {
+	padding: 80px 0;
+}
+
+.light {
+	background-color: #e4e5e6;
+	color: #222;
+}
+
+.dark {
+	background-color: #373737;
+	color: white;
+}
+
+.vcenter {
+    vertical-align: middle;
+}
+
+div.listing-image {
+
+	height: 360px;
+	overflow: hidden;
+}
+
+/* carousel */
+
+a.carousel-control {
+	background-image: none !important;
+	text-align: center;
+}
+
+a.carousel-control i {
+	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+}
+
+@media (min-width: 768px) {
+	div.carousel {
+		padding: 0px 60px;
+	}
+
+	a.carousel-control {
+		background-image: none !important;
+		width: 60px;
+	}
+}
+
+ol.carousel-indicators {
+	position: relative;
+}
+
+div.thumbnail {
+	min-height:650px;
+}
+
+div.thumbnail p {
+	font-size: 9pt;
+	line-height: 11pt;
+}
+
+/* maps */
+section#search {
+	position: absolute;
+	top: 50px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+div#search_map {
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 300px;
+	bottom: 0px;
+}
+
+div#search_list {
+	background: #d4d5d6;
+	position: absolute;
+	top: 0px;
+	width: 300px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+
+div#search_filters {
+	position: absolute;
+	right: 320px;
+	width: 300px;
+	top: 20px;
+}
+
+div#search_filters div.input-group {
+	margin-bottom: 5px;
+}
+
+div.listing {
+	background: white;
+	margin: 5px;
+	color: #373737;
+	min-height: 100px;
+	cursor: pointer;
+}
+
+div.listing div.thumb {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	background-position: center center;
+}
+
+div.listing p {
+	margin: 0px 5px 5px 110px;
+	font-size: 11pt;
+}
+
+div.listing p.price {
+	font-weight: bold;
+	color: orange;
+}
+
+/* crap dummy listing fixes */
+
+div.listing span {
+	display: block;
+}
+/* end crap fix */
+
+img.static-map {
+	width: 240px;
+	height: 240px;
+	background: orange;
+	float: right;
+}
