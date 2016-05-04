@@ -2,6 +2,9 @@ html, body {
     height: 100%;
 }
 
+.navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
 
 h1, h2, h3, h4 {
 	font-family: 'Roboto Slab';
